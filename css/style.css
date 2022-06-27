@@ -34,6 +34,24 @@ html::-webkit-scrollbar-thumb {
 body {
   background: #1d0e15;
 }
+#loader {
+height: 1500px;
+width: 1500px;
+background-color:#E7808B; position: fixed;
+top:50%;
+left: 50%;
+transform: 
+translate(-50%, -50%);
+z-index: 999;
+}
+
+#loader img{
+position: absolute;
+top:50%;
+left: 50%;
+transform:
+translate(-50%, -50%);
+}
 
 section {
   padding: 3rem 1rem;
